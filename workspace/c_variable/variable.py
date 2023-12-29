@@ -122,26 +122,8 @@ formatting3 = '이름: {name}\n나이: {age}\n키: {height}\n'.format(name=name,
 print(formatting1)
 print(formatting2)
 print(formatting3)
-
-
-# 실습
-# 아래 메세지를 format함수를 사용하여 출력한다.
-# Hello 파이썬, python is fantastic !
-# Hello 장고, Django is fantastic !
-# Hello 리액트, React is fantastic !
-lang_kr = '파이썬'
-lang_en = 'python'
-print('Hello {lang_kr}, {lang_en} is fantastic !'.format(lang_kr=lang_kr, lang_en=lang_en))
-
-lang_kr = '장고'
-lang_en = 'Django'
-print('Hello {lang_kr}, {lang_en} is fantastic !'.format(lang_kr=lang_kr, lang_en=lang_en))
-
-lang_kr = '리액트'
-lang_en = 'react'
-print('Hello {lang_kr}, {lang_en} is fantastic !'.format(lang_kr=lang_kr, lang_en=lang_en))
-
 print()
+
 # format string
 name = '장태훈'
 age = 80
@@ -156,6 +138,7 @@ print(f'키: {round(height, 1)}cm\n')
 # Hello 파이썬, python is fantastic !
 # Hello 장고, Django is fantastic !
 # Hello 리액트, React is fantastic !
+
 lang_kr = '파이썬'
 lang_en = 'python'
 print(f'Hello {lang_kr}, {lang_en} is fantastic !')
@@ -166,7 +149,8 @@ print(f'Hello {lang_kr}, {lang_en} is fantastic !')
 
 lang_kr = '리액트'
 lang_en = 'react'
-print(f'Hello {lang_kr}, {lang_en} is fantastic !')
+print(f'Hello {lang_kr}, {lang_en} is fantastic !\n')
+
 
 # 실습
 #값에 이름을 붙여서 해당 이름에 있는 값이 반영된다.
@@ -183,3 +167,4 @@ print('Hello {0}, {1} is fantastic !'.format(lang_kr, lang_en))
 lang_kr = '리액트'
 lang_en = 'react'
 print('Hello {}, {} is fantastic !'.format(lang_kr, lang_en))
+
