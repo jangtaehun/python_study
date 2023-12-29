@@ -105,7 +105,7 @@ print("="*20)
 # 1 + 3 = 4
 first_num = 1
 second_num = 2
-print(first_num + second_num)
+print("%d + %d = %d" %(first_num, second_num, first_num + second_num))
 
 # format 함수
 name = '장태훈'
@@ -167,3 +167,19 @@ print(f'Hello {lang_kr}, {lang_en} is fantastic !')
 lang_kr = '리액트'
 lang_en = 'react'
 print(f'Hello {lang_kr}, {lang_en} is fantastic !')
+
+# 실습
+#값에 이름을 붙여서 해당 이름에 있는 값이 반영된다.
+lang_kr = '파이썬'
+lang_en = 'python'
+print('Hello {lang_kr}, {lang_en} is fantastic !'.format(lang_kr=lang_kr, lang_en=lang_en))
+
+#값에 할당된 번호를 작성하면 해당 값이 반영된다.
+lang_kr = '장고'
+lang_en = 'Django'
+print('Hello {0}, {1} is fantastic !'.format(lang_kr, lang_en))
+
+#자동으로 해당 순서에 값이 반영된다.
+lang_kr = '리액트'
+lang_en = 'react'
+print('Hello {}, {} is fantastic !'.format(lang_kr, lang_en))
