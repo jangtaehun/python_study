@@ -50,6 +50,7 @@ for i in range(12):
     print(i % 4 + 3, end=" ")
 print()
 
+
 # '1,235,500'를 1235500으로 출력
 string = '1,235,550'
 result = ''

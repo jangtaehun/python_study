@@ -1,10 +1,10 @@
-# for i in range(1, 11):
+# for i in range(1, list):
 #     # print(i, end=" ")
 #     print(f'{i + 1} 장태훈')
 #     if i == 10:
 #         print()
 #
-# for i in range(1, 11):
+# for i in range(1, list):
 #     print(i)
 #     if i == 10:
 #         print()
